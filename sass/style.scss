@@ -1,0 +1,34 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #23272d;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.undetitleportfolio,
+.undetitlecontact {
+  color: #afbac6;
+  max-width: 300px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+.undetitlecontact {
+  padding-top: 50px;
+}
+.undetitlecontact2 {
+  color: #afbac6;
+  font-size: 25px;
+  padding-bottom: 100px;
+}
+h1 {
+  color: white;
+}

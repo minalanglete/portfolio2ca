@@ -1,0 +1,83 @@
+.navbar1 {
+  color: #afbac6;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar2 {
+  display: flex;
+  justify-content: center;
+  background-color: #3d434c;
+}
+a:visited,
+a:active {
+  color: #afbac6;
+}
+
+.navbar3 {
+  padding: 5px;
+  margin: 5px;
+}
+.navbar3:hover {
+  background-color: #3d434c;
+}
+.svg1 {
+  display: none;
+}
+.logomobil {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .navbarmobile {
+    display: flex;
+    justify-content: right;
+  }
+  .logo {
+    display: none;
+  }
+  .logomobil {
+    display: block;
+  }
+  .svg1 {
+    display: block;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  .navbar {
+    background-color: #3d434c;
+    justify-content: right;
+  }
+  .navbar1 {
+    text-align: center;
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    flex-direction: column;
+    left: -100%;
+    top: 20%;
+  }
+  .navbar_change {
+    background-color: #3d434c;
+    text-align: center;
+
+    height: 100px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .navbar2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+p.githublink {
+  font-weight: bold;
+}
+.link:active,
+.link:visited {
+  color: #3d434c;
+}
+.link:hover {
+  color: #ef521b;
+}

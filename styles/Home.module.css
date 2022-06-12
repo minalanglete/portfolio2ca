@@ -1,0 +1,76 @@
+.containermain {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  .containermain {
+    max-width: 400px;
+    justify-content: center;
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  border-top: 1px solid #2e333a;
+  text-align: center;
+  color: #afbac6;
+}
+
+.title {
+  margin: 10px 0px;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+.undertitle {
+  font-size: 40px;
+  margin: 10px 0px;
+}
+.card {
+  margin: 1rem;
+  padding-bottom: 15px;
+  text-align: left;
+  color: #2e333a;
+  text-decoration: none;
+  border: 1px solid #2e333a;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  background-color: #ffff;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #dd7d63;
+  border-color: #dd7d63;
+}
+
+.card h2 {
+  margin: 1rem 0 1rem 0;
+  font-size: 1.5rem;
+  padding: 0rem 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 0rem 1.5rem;
+}
+.nav {
+  background-color: #3d434c;
+  width: 100%;
+  text-align: center;
+  color: #afbac6;
+}
+.text {
+  color: #afbac6;
+  text-transform: uppercase;
+}
+p.githublink {
+  padding-bottom: 10px;
+}
